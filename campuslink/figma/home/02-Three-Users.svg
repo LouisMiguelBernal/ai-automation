@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="478" viewBox="0 0 1440 478">
+<defs><linearGradient id="g2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ebeff6"/><stop offset="100%" stop-color="#ffffff"/></linearGradient></defs>
+<rect width="1440" height="478" fill="#ffffff"/>
+<rect x="0" y="0" width="1440" height="478" fill="url(#g2)"/>
+<text x="573.6" y="84.0" font-family="Figtree" font-size="30" font-weight="700" fill="#0e3b7d">Three users, one loop</text>
+<text x="572.3" y="117.1" font-family="Figtree" font-size="16" font-weight="400" fill="#5f6873">Pick a role to walk through the prototype.</text>
+<rect x="160" y="156" width="360" height="266" fill="#ffffff"/>
+<rect x="160" y="156" width="360" height="1" fill="#dde3ec"/>
+<rect x="160" y="421" width="360" height="1" fill="#dde3ec"/>
+<rect x="160" y="156" width="1" height="266" fill="#dde3ec"/>
+<rect x="519" y="156" width="1" height="266" fill="#dde3ec"/>
+<rect x="185" y="181" width="48" height="48" fill="#ebeff6"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0e3b7d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="197" y="193"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect><path d="M12 18h.01"></path></svg>
+<text x="185.0" y="265.3" font-family="Figtree" font-size="18" font-weight="700" fill="#0e3b7d">Parent app</text>
+<text x="185.0" y="287.4" font-family="Figtree" font-size="14" font-weight="600" fill="#0062ad">Families, mobile</text>
+<text x="185.0" y="315.4" font-family="Figtree" font-size="14" font-weight="400" fill="#33373d">Pick a language, RSVP, check in with a QR code,</text>
+<text x="185.0" y="335.4" font-family="Figtree" font-size="14" font-weight="400" fill="#33373d">sign the compact and book a conference.</text>
+<rect x="185" y="375" width="52.234375" height="2" fill="#8ac343"/>
+<text x="185.0" y="369.2" font-family="Figtree" font-size="12" font-weight="700" fill="#0e3b7d" letter-spacing="0.3">OPEN</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0e3b7d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="223.234375" y="358"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+<rect x="540" y="156" width="360" height="266" fill="#ffffff"/>
+<rect x="540" y="156" width="360" height="1" fill="#dde3ec"/>
+<rect x="540" y="421" width="360" height="1" fill="#dde3ec"/>
+<rect x="540" y="156" width="1" height="266" fill="#dde3ec"/>
+<rect x="899" y="156" width="1" height="266" fill="#dde3ec"/>
+<rect x="565" y="181" width="48" height="48" fill="#ebeff6"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0e3b7d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="577" y="193"><path d="M14 22v-4a2 2 0 1 0-4 0v4"></path><path d="m18 10 3.447 1.724a1 1 0 0 1 .553.894V20a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-7.382a1 1 0 0 1 .553-.894L6 10"></path><path d="M18 5v17"></path><path d="m4 6 7.106-3.553a2 2 0 0 1 1.788 0L20 6"></path><path d="M6 5v17"></path><circle cx="12" cy="9" r="2"></circle></svg>
+<text x="565.0" y="265.3" font-family="Figtree" font-size="18" font-weight="700" fill="#0e3b7d">Campus workspace</text>
+<text x="565.0" y="287.4" font-family="Figtree" font-size="14" font-weight="600" fill="#0062ad">Teachers &amp; principals, desktop</text>
+<text x="565.0" y="315.4" font-family="Figtree" font-size="14" font-weight="400" fill="#33373d">Create events with auto-translated invites, reply</text>
+<text x="565.0" y="335.4" font-family="Figtree" font-size="14" font-weight="400" fill="#33373d">to families in any language, open conference</text>
+<text x="565.0" y="355.4" font-family="Figtree" font-size="14" font-weight="400" fill="#33373d">slots.</text>
+<rect x="565" y="395" width="52.234375" height="2" fill="#8ac343"/>
+<text x="565.0" y="389.2" font-family="Figtree" font-size="12" font-weight="700" fill="#0e3b7d" letter-spacing="0.3">OPEN</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0e3b7d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="603.234375" y="378"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+<rect x="920" y="156" width="360" height="266" fill="#ffffff"/>
+<rect x="920" y="156" width="360" height="1" fill="#dde3ec"/>
+<rect x="920" y="421" width="360" height="1" fill="#dde3ec"/>
+<rect x="920" y="156" width="1" height="266" fill="#dde3ec"/>
+<rect x="1279" y="156" width="1" height="266" fill="#dde3ec"/>
+<rect x="945" y="181" width="48" height="48" fill="#ebeff6"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#0e3b7d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="957" y="193"><rect width="7" height="9" x="3" y="3" rx="1"></rect><rect width="7" height="5" x="14" y="3" rx="1"></rect><rect width="7" height="9" x="14" y="12" rx="1"></rect><rect width="7" height="5" x="3" y="16" rx="1"></rect></svg>
+<text x="945.0" y="265.3" font-family="Figtree" font-size="18" font-weight="700" fill="#0e3b7d">District dashboard</text>
+<text x="945.0" y="287.4" font-family="Figtree" font-size="14" font-weight="600" fill="#0062ad">Federal programs director, desktop</text>
+<text x="945.0" y="315.4" font-family="Figtree" font-size="14" font-weight="400" fill="#33373d">See engagement by campus and language, spot</text>
+<text x="945.0" y="335.4" font-family="Figtree" font-size="14" font-weight="400" fill="#33373d">at-risk schools, and file evidence to Title1Crate.</text>
+<rect x="945" y="375" width="52.234375" height="2" fill="#8ac343"/>
+<text x="945.0" y="369.2" font-family="Figtree" font-size="12" font-weight="700" fill="#0e3b7d" letter-spacing="0.3">OPEN</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#0e3b7d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="983.234375" y="358"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+</svg>

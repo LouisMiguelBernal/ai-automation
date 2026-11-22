@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="754" viewBox="0 0 1440 754">
+<defs><linearGradient id="g1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#83b7ea"/><stop offset="100%" stop-color="#0e3b7d"/></linearGradient></defs>
+<rect width="1440" height="754" fill="#ffffff"/>
+<rect x="0" y="0" width="1440" height="44" fill="#0a2b5c"/>
+<rect x="361.640625" y="13" width="98.578125" height="19.703125" fill="#8ac343"/>
+<text x="367.6" y="26.4" font-family="Figtree" font-size="11" font-weight="700" fill="#0a2b5c" letter-spacing="0.275">LAUNCH OFFER</text>
+<text x="468.2" y="26.4" font-family="Figtree" font-size="14" font-weight="600" fill="#ffffff">First 10 districts get a free semester pilot.</text>
+<text x="736.2" y="26.4" font-family="Figtree" font-size="14" font-weight="400" fill="#ffffff" fill-opacity="0.851">Sign before July 1 for free event boosts.</text>
+<text x="988.6" y="26.4" font-family="Figtree" font-size="14" font-weight="700" fill="#8ac343" text-decoration="underline">See pricing</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#8ac343" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="1064.34375" y="15.5"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+<rect x="0" y="44" width="1440" height="90" fill="#ffffff"/>
+<rect x="0" y="133" width="1440" height="1" fill="#dde3ec"/>
+<rect x="16" y="66.5" width="44" height="44" fill="#0e3b7d"/>
+<svg viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" x="24" y="74.5" width="28" height="28"><circle cx="8" cy="8" r="3"></circle><circle cx="16" cy="16" r="3"></circle><path d="M10.5 10.5l3 3"></path></svg>
+<text x="72.0" y="97.1" font-family="Figtree" font-size="26" font-weight="700" fill="#0e3b7d" letter-spacing="-0.65">CampusLink</text>
+<text x="362.2" y="92.9" font-family="Figtree" font-size="14" font-weight="600" fill="#000000">PRODUCT</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="432.09375" y="80.5"><path d="m6 9 6 6 6-6"></path></svg>
+<text x="488.1" y="92.9" font-family="Figtree" font-size="14" font-weight="600" fill="#000000">HOW IT WORKS</text>
+<text x="632.8" y="92.9" font-family="Figtree" font-size="14" font-weight="600" fill="#000000">WHY NOW</text>
+<text x="744.4" y="92.9" font-family="Figtree" font-size="14" font-weight="600" fill="#000000">PRICING</text>
+<text x="841.0" y="92.9" font-family="Figtree" font-size="14" font-weight="600" fill="#000000">EVENT PROMOTION</text>
+<text x="1143.5" y="93.6" font-family="Figtree" font-size="16" font-weight="400" fill="#000000">Sign In</text>
+<rect x="1212.59375" y="67" width="211.40625" height="43" fill="#8ac343"/>
+<text x="1248.6" y="92.9" font-family="Figtree" font-size="14" font-weight="600" fill="#0a2b5c">TRY THE PROTOTYPE</text>
+<rect x="0" y="134" width="1440" height="620" fill="url(#g1)"/>
+<text x="90.0" y="338.1" font-family="Figtree" font-size="48" font-weight="600" fill="#ffffff">Every Family Conversation Counts, In</text>
+<text x="90.0" y="405.3" font-family="Figtree" font-size="48" font-weight="600" fill="#ffffff">Any Language</text>
+<text x="90.0" y="467.9" font-family="Figtree" font-size="32" font-weight="600" fill="#ffffff">Turning Every Check-In, Signature And Survey Into</text>
+<text x="90.0" y="511.9" font-family="Figtree" font-size="32" font-weight="600" fill="#ffffff">Title I Evidence</text>
+<rect x="90" y="554.6875" width="234.578125" height="45" fill="#8ac343"/>
+<text x="128.0" y="581.6" font-family="Figtree" font-size="14" font-weight="600" fill="#0a2b5c">START AS A PARENT</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0a2b5c" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="270.578125" y="569.1875"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+<rect x="340.578125" y="554.6875" width="234.984375" height="45" fill="#ffffff"/>
+<rect x="340.578125" y="596.6875" width="234.984375" height="3" fill="#cd201f"/>
+<text x="378.6" y="580.1" font-family="Figtree" font-size="14" font-weight="600" fill="#000000">SEE THE DISTRICT VIEW</text>
+</svg>

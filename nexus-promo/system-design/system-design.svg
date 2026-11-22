@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 620" width="1500" height="620">
+<defs><pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.2" fill="#2A2F35"/></pattern></defs>
+<rect width="1500" height="620" fill="#14171A"/><rect width="1500" height="620" fill="url(#dots)"/>
+<text x="40" y="52" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#F1F3F5">Nexus · System Flow</text>
+<text x="40" y="78" font-family="Consolas, ui-monospace, monospace" font-size="12" fill="#8E949B">market data path (top) · local AI path (bottom) · all on-device</text>
+<path d="M162 166 C231 166 231 166 300 166" fill="none" stroke="#8E949B" stroke-width="2"/><path d="M392 166 C461 166 461 166 530 166" fill="none" stroke="#8E949B" stroke-width="2"/><path d="M622 166 C691 166 691 166 760 166" fill="none" stroke="#8E949B" stroke-width="2"/><path d="M852 166 C921 166 921 296 990 296" fill="none" stroke="#8E949B" stroke-width="2"/><path d="M1082 296 C1151 296 1151 296 1220 296" fill="none" stroke="#8E949B" stroke-width="2"/><path d="M162 426 C231 426 231 426 300 426" fill="none" stroke="#8E949B" stroke-width="2"/><path d="M392 426 C461 426 461 426 530 426" fill="none" stroke="#8E949B" stroke-width="2"/><path d="M622 426 C691 426 691 426 760 426" fill="none" stroke="#8E949B" stroke-width="2"/><path d="M852 426 C921 426 921 296 990 296" fill="none" stroke="#8E949B" stroke-width="2"/><circle cx="576" cy="268" r="4" fill="#8E949B"/><path d="M576 268 C576 298 576 350 576 380" fill="none" stroke="#8E949B" stroke-width="2"/><path d="M852 426 C912 426 930 486 990 486" fill="none" stroke="#5B6168" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="70" y="120" width="92" height="92" rx="14" fill="#22262B" stroke="#4A5057" stroke-width="2"/>
+<circle cx="70" cy="166" r="5" fill="#8E949B"/><circle cx="162" cy="166" r="5" fill="#8E949B"/>
+<text x="116" y="175" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#E6E9EC">WS</text>
+<text x="116" y="236" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#F1F3F5">Exchange Streams</text>
+<text x="116" y="255" text-anchor="middle" font-family="Consolas, ui-monospace, monospace" font-size="11.5" fill="#8E949B">Binance · OKX · MEXC</text>
+<rect x="300" y="120" width="92" height="92" rx="14" fill="#22262B" stroke="#4A5057" stroke-width="2"/>
+<circle cx="300" cy="166" r="5" fill="#8E949B"/><circle cx="392" cy="166" r="5" fill="#8E949B"/>
+<text x="346" y="175" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#E6E9EC">IN</text>
+<text x="346" y="236" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#F1F3F5">Ingest &amp; Fuse</text>
+<text x="346" y="255" text-anchor="middle" font-family="Consolas, ui-monospace, monospace" font-size="11.5" fill="#8E949B">cross-venue order book</text>
+<rect x="530" y="120" width="92" height="92" rx="14" fill="#22262B" stroke="#4A5057" stroke-width="2"/>
+<circle cx="530" cy="166" r="5" fill="#8E949B"/><circle cx="622" cy="166" r="5" fill="#8E949B"/>
+<text x="576" y="175" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#E6E9EC">Σ</text>
+<text x="576" y="236" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#F1F3F5">Alpha Signals</text>
+<text x="576" y="255" text-anchor="middle" font-family="Consolas, ui-monospace, monospace" font-size="11.5" fill="#8E949B">multi-factor score</text>
+<rect x="760" y="120" width="92" height="92" rx="14" fill="#22262B" stroke="#4A5057" stroke-width="2"/>
+<circle cx="760" cy="166" r="5" fill="#8E949B"/><circle cx="852" cy="166" r="5" fill="#8E949B"/>
+<text x="806" y="175" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#E6E9EC">!</text>
+<text x="806" y="236" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#F1F3F5">Risk &amp; Breaker</text>
+<text x="806" y="255" text-anchor="middle" font-family="Consolas, ui-monospace, monospace" font-size="11.5" fill="#8E949B">VaR · Kelly · halt</text>
+<rect x="990" y="250" width="92" height="92" rx="14" fill="#22262B" stroke="#4A5057" stroke-width="2"/>
+<circle cx="990" cy="296" r="5" fill="#8E949B"/><circle cx="1082" cy="296" r="5" fill="#8E949B"/>
+<text x="1036" y="305" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#E6E9EC">API</text>
+<text x="1036" y="366" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#F1F3F5">FastAPI</text>
+<text x="1036" y="385" text-anchor="middle" font-family="Consolas, ui-monospace, monospace" font-size="11.5" fill="#8E949B">REST :8001</text>
+<rect x="1220" y="250" width="92" height="92" rx="14" fill="#22262B" stroke="#4A5057" stroke-width="2"/>
+<circle cx="1220" cy="296" r="5" fill="#8E949B"/><circle cx="1312" cy="296" r="5" fill="#8E949B"/>
+<text x="1266" y="305" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#E6E9EC">UI</text>
+<text x="1266" y="366" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#F1F3F5">Nexus Desktop</text>
+<text x="1266" y="385" text-anchor="middle" font-family="Consolas, ui-monospace, monospace" font-size="11.5" fill="#8E949B">Next.js + Electron</text>
+<rect x="70" y="380" width="92" height="92" rx="14" fill="#22262B" stroke="#4A5057" stroke-width="2"/>
+<circle cx="70" cy="426" r="5" fill="#8E949B"/><circle cx="162" cy="426" r="5" fill="#8E949B"/>
+<text x="116" y="435" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#E6E9EC">RSS</text>
+<text x="116" y="496" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#F1F3F5">News Feeds</text>
+<text x="116" y="515" text-anchor="middle" font-family="Consolas, ui-monospace, monospace" font-size="11.5" fill="#8E949B">RSS · Finnhub</text>
+<rect x="300" y="380" width="92" height="92" rx="14" fill="#132A22" stroke="#10B981" stroke-width="2"/>
+<circle cx="300" cy="426" r="5" fill="#8E949B"/><circle cx="392" cy="426" r="5" fill="#8E949B"/>
+<text x="346" y="435" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#5EEAB0">FB</text>
+<text x="346" y="496" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#F1F3F5">FinBERT</text>
+<text x="346" y="515" text-anchor="middle" font-family="Consolas, ui-monospace, monospace" font-size="11.5" fill="#8E949B">headline sentiment</text>
+<rect x="530" y="380" width="92" height="92" rx="14" fill="#132A22" stroke="#10B981" stroke-width="2"/>
+<circle cx="530" cy="426" r="5" fill="#8E949B"/><circle cx="622" cy="426" r="5" fill="#8E949B"/>
+<text x="576" y="435" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#5EEAB0">G4</text>
+<text x="576" y="496" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#F1F3F5">Gemma 4 E4B</text>
+<text x="576" y="515" text-anchor="middle" font-family="Consolas, ui-monospace, monospace" font-size="11.5" fill="#8E949B">research brief · Ollama</text>
+<rect x="760" y="380" width="92" height="92" rx="14" fill="#22262B" stroke="#4A5057" stroke-width="2"/>
+<circle cx="760" cy="426" r="5" fill="#8E949B"/><circle cx="852" cy="426" r="5" fill="#8E949B"/>
+<text x="806" y="435" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#E6E9EC">DB</text>
+<text x="806" y="496" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#F1F3F5">SQLite</text>
+<text x="806" y="515" text-anchor="middle" font-family="Consolas, ui-monospace, monospace" font-size="11.5" fill="#8E949B">briefs · alerts · journal</text>
+<rect x="990" y="440" width="92" height="92" rx="14" fill="#22262B" stroke="#4A5057" stroke-width="2"/>
+<circle cx="990" cy="486" r="5" fill="#8E949B"/><circle cx="1082" cy="486" r="5" fill="#8E949B"/>
+<text x="1036" y="495" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="28" font-weight="700" fill="#E6E9EC">TG</text>
+<text x="1036" y="556" text-anchor="middle" font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="15" font-weight="600" fill="#F1F3F5">Telegram</text>
+<text x="1036" y="575" text-anchor="middle" font-family="Consolas, ui-monospace, monospace" font-size="11.5" fill="#8E949B">alerts · optional</text>
+<rect x="1220" y="470" width="14" height="14" rx="3" fill="#132A22" stroke="#10B981" stroke-width="2"/>
+<text x="1242" y="482" font-family="Consolas, ui-monospace, monospace" font-size="12" fill="#8E949B">local AI model</text>
+<line x1="1220" y1="508" x2="1254" y2="508" stroke="#5B6168" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="1262" y="513" font-family="Consolas, ui-monospace, monospace" font-size="12" fill="#8E949B">optional</text>
+</svg>

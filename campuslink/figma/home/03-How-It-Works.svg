@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="338" viewBox="0 0 1440 338">
+<defs></defs>
+<rect width="1440" height="338" fill="#ffffff"/>
+<text x="160.0" y="84.0" font-family="Figtree" font-size="30" font-weight="700" fill="#0e3b7d">How it works</text>
+<rect x="160" y="124" width="268" height="158" fill="#ffffff"/>
+<rect x="160" y="124" width="268" height="1" fill="#dde3ec"/>
+<rect x="160" y="281" width="268" height="1" fill="#dde3ec"/>
+<rect x="160" y="124" width="1" height="158" fill="#dde3ec"/>
+<rect x="427" y="124" width="1" height="158" fill="#dde3ec"/>
+<text x="181.0" y="162.2" font-family="Figtree" font-size="12" font-weight="700" fill="#5f6873">STEP</text>
+<text x="212.5" y="162.2" font-family="Figtree" font-size="12" font-weight="700" fill="#5f6873">1</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0062ad" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="181" y="177"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path><path d="m9 16 2 2 4-4"></path></svg>
+<text x="181.0" y="234.1" font-family="Figtree" font-size="16" font-weight="700" fill="#0e3b7d">Campus creates event</text>
+<text x="181.0" y="255.4" font-family="Figtree" font-size="14" font-weight="400" fill="#5f6873">Invite auto-translated</text>
+<rect x="444" y="124" width="268" height="158" fill="#ffffff"/>
+<rect x="444" y="124" width="268" height="1" fill="#dde3ec"/>
+<rect x="444" y="281" width="268" height="1" fill="#dde3ec"/>
+<rect x="444" y="124" width="1" height="158" fill="#dde3ec"/>
+<rect x="711" y="124" width="1" height="158" fill="#dde3ec"/>
+<text x="465.0" y="162.2" font-family="Figtree" font-size="12" font-weight="700" fill="#5f6873">STEP</text>
+<text x="496.5" y="162.2" font-family="Figtree" font-size="12" font-weight="700" fill="#5f6873">2</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0062ad" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="465" y="177"><rect width="5" height="5" x="3" y="3" rx="1"></rect><rect width="5" height="5" x="16" y="3" rx="1"></rect><rect width="5" height="5" x="3" y="16" rx="1"></rect><path d="M21 16h-3a2 2 0 0 0-2 2v3"></path><path d="M21 21v.01"></path><path d="M12 7v3a2 2 0 0 1-2 2H7"></path><path d="M3 12h.01"></path><path d="M12 3h.01"></path><path d="M12 16v.01"></path><path d="M16 12h1"></path><path d="M21 12v.01"></path><path d="M12 21v-1"></path></svg>
+<text x="465.0" y="234.1" font-family="Figtree" font-size="16" font-weight="700" fill="#0e3b7d">Family checks in</text>
+<text x="465.0" y="255.4" font-family="Figtree" font-size="14" font-weight="400" fill="#5f6873">QR, 10 seconds</text>
+<rect x="728" y="124" width="268" height="158" fill="#ffffff"/>
+<rect x="728" y="124" width="268" height="1" fill="#dde3ec"/>
+<rect x="728" y="281" width="268" height="1" fill="#dde3ec"/>
+<rect x="728" y="124" width="1" height="158" fill="#dde3ec"/>
+<rect x="995" y="124" width="1" height="158" fill="#dde3ec"/>
+<text x="749.0" y="162.2" font-family="Figtree" font-size="12" font-weight="700" fill="#5f6873">STEP</text>
+<text x="780.5" y="162.2" font-family="Figtree" font-size="12" font-weight="700" fill="#5f6873">3</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0062ad" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="749" y="177"><path d="M4 22h14a2 2 0 0 0 2-2V7l-5-5H6a2 2 0 0 0-2 2v4"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="m3 15 2 2 4-4"></path></svg>
+<text x="749.0" y="234.1" font-family="Figtree" font-size="16" font-weight="700" fill="#0e3b7d">Evidence auto-checked</text>
+<text x="749.0" y="255.4" font-family="Figtree" font-size="14" font-weight="400" fill="#5f6873">Date, campus, attendees</text>
+<rect x="1012" y="124" width="268" height="158" fill="#ffffff"/>
+<rect x="1012" y="124" width="268" height="1" fill="#dde3ec"/>
+<rect x="1012" y="281" width="268" height="1" fill="#dde3ec"/>
+<rect x="1012" y="124" width="1" height="158" fill="#dde3ec"/>
+<rect x="1279" y="124" width="1" height="158" fill="#dde3ec"/>
+<text x="1033.0" y="162.2" font-family="Figtree" font-size="12" font-weight="700" fill="#5f6873">STEP</text>
+<text x="1064.5" y="162.2" font-family="Figtree" font-size="12" font-weight="700" fill="#5f6873">4</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#0062ad" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="1033" y="177"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg>
+<text x="1033.0" y="234.1" font-family="Figtree" font-size="16" font-weight="700" fill="#0e3b7d">Filed to Title1Crate</text>
+<text x="1033.0" y="255.4" font-family="Figtree" font-size="14" font-weight="400" fill="#5f6873">Audit-ready, no paper</text>
+</svg>

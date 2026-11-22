@@ -1,0 +1,92 @@
+# Own git repo
+osaka-portal/
+# Runtime data (backed up by ops/backup.ps1, never committed)
+backups/
+osaka-inbox/
+# Secrets
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Public portfolio repo (own git, pushed to GitHub)
+osaka-document-intake/
+
+# Personal study material (contains client architecture notes)
+/study/
+
+# Public customer-triage repo (own git, pushed to GitHub)
+customer-triage-public/
+synch-promo/
+
+# --- dependencies / environments
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# --- build output / caches
+.next/
+.nuxt/
+.turbo/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+test-results/
+playwright-report/
+*.tsbuildinfo
+*.log
+
+# --- secrets / local config
+*.env
+!.env.example
+!.env.template
+!.env.sample
+!env.template
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+id_rsa*
+id_ed25519*
+credentials*.json
+client_secret*.json
+token.json
+*service-account*.json
+settings.local.json
+
+# --- local data
+*.db
+*.sqlite
+*.sqlite3
+*-wal
+*-shm
+*.db-journal
+*.bak
+*.bak-*
+
+# --- binaries
+*.exe
+*.msi
+*.dll
+*.pdb
+*.asar
+*.blockmap
+
+# --- OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+.idea/
+
+# --- rendered media / third-party deliverables
+*/out/
+sts-brochure/
+prl-demand-plan/

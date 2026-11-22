@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+/* Brand tokens sampled from 806technologies.com (2026-11-11). */
+@theme {
+  --color-navy: #0e3b7d;
+  --color-navy-900: #0a2b5c;
+  --color-blue: #0062ad;
+  --color-sky: #83b7ea;
+  --color-sky-100: #dbe9f8;
+  --color-pale: #ebeff6;
+  --color-green: #8ac343;
+  --color-green-700: #4e7f1a;
+  --color-brand-red: #cd201f;
+  --color-ink: #33373d;
+  --color-muted: #5f6873;
+  --color-line: #dde3ec;
+  --color-danger: #b42318;
+  --color-danger-50: #fdecea;
+  --color-warn: #8a5a00;
+  --color-warn-50: #fff4db;
+  --color-ok: #2f6b12;
+  --color-ok-50: #eaf5dd;
+
+  --font-sans: var(--font-figtree), ui-sans-serif, system-ui, sans-serif;
+
+  --radius-btn: 0px;
+  --radius-xs: 0px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-2xl: 0px;
+  --radius-3xl: 0px;
+  --shadow-card: 0 1px 2px rgb(14 59 125 / 0.06), 0 4px 16px rgb(14 59 125 / 0.06);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #ffffff;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-blue);
+  outline-offset: 2px;
+  /* White ring keeps the focus indicator visible on navy panels (WCAG 1.4.11). */
+  box-shadow: 0 0 0 2px #ffffff;
+  border-radius: 0;
+}
+
+main:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Sticky headers must not hide the focused element (WCAG 2.4.11). */
+html {
+  scroll-padding-top: 8.5rem;
+}
+
+@media (max-width: 767px) {
+  html {
+    scroll-padding-top: 6rem;
+  }
+}
+
+.skip-link {
+  position: absolute;
+  left: 16px;
+  top: -100px;
+  z-index: 100;
+  background: var(--color-navy);
+  color: #ffffff;
+  padding: 12px 16px;
+  font-weight: 700;
+}
+
+.skip-link:focus {
+  top: 16px;
+}
+
+@utility hero-gradient {
+  background: linear-gradient(180deg, var(--color-sky) 0%, var(--color-navy) 100%);
+}
+
+@utility soft-gradient {
+  background: linear-gradient(180deg, var(--color-pale) 0%, #ffffff 100%);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

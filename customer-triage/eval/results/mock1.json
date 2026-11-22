@@ -1,0 +1,2827 @@
+{
+  "tag": "mock1",
+  "mock": true,
+  "results": [
+    {
+      "id": "b1",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Billing",
+        "alert": false
+      },
+      "row": {
+        "id": 2,
+        "message_id": "<mock1.b1@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Technical Support",
+        "secondary_category": null,
+        "confidence": 0.6,
+        "model_confidence": 0.85,
+        "rule_categories": [
+          "Billing"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "rule_disagreement",
+          "low_confidence"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:19.856419+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 1041,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": false,
+      "lenient": false
+    },
+    {
+      "id": "b2",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Billing",
+        "alert": false
+      },
+      "row": {
+        "id": 1,
+        "message_id": "<mock1.b2@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Billing",
+        "secondary_category": null,
+        "confidence": 0.88,
+        "model_confidence": 0.88,
+        "rule_categories": [
+          "Billing"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 953,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "b3",
+      "tags": [
+        "near-refund"
+      ],
+      "label": {
+        "category": "Billing",
+        "accept": [
+          "Refund Request"
+        ],
+        "alert": false
+      },
+      "row": {
+        "id": 3,
+        "message_id": "<mock1.b3@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Billing",
+        "secondary_category": null,
+        "confidence": 0.88,
+        "model_confidence": 0.88,
+        "rule_categories": [
+          "Billing"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 978,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "b4",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Billing",
+        "alert": false
+      },
+      "row": {
+        "id": 4,
+        "message_id": "<mock1.b4@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Billing",
+        "secondary_category": null,
+        "confidence": 0.88,
+        "model_confidence": 0.88,
+        "rule_categories": [
+          "Billing"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 1007,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "b5",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Billing",
+        "accept": [
+          "General Question"
+        ],
+        "alert": false
+      },
+      "row": {
+        "id": 7,
+        "message_id": "<mock1.b5@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Billing",
+        "secondary_category": null,
+        "confidence": 0.88,
+        "model_confidence": 0.88,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 755,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "b6",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Billing",
+        "alert": false
+      },
+      "row": {
+        "id": 5,
+        "message_id": "<mock1.b6@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Billing",
+        "secondary_category": null,
+        "confidence": 0.88,
+        "model_confidence": 0.88,
+        "rule_categories": [
+          "Billing"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 517,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "b7",
+      "tags": [
+        "html-only"
+      ],
+      "label": {
+        "category": "Billing",
+        "alert": false
+      },
+      "row": {
+        "id": 6,
+        "message_id": "<mock1.b7@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Billing",
+        "secondary_category": null,
+        "confidence": 0.88,
+        "model_confidence": 0.88,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 647,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "b8",
+      "tags": [
+        "quoted-thread"
+      ],
+      "label": {
+        "category": "Billing",
+        "alert": false
+      },
+      "row": {
+        "id": 62,
+        "message_id": "<mock1.b8@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Billing",
+        "secondary_category": null,
+        "confidence": 0.88,
+        "model_confidence": 0.88,
+        "rule_categories": [
+          "Billing"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": 2,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 177,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "a1",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Access",
+        "alert": false
+      },
+      "row": {
+        "id": 8,
+        "message_id": "<mock1.a1@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Access",
+        "secondary_category": null,
+        "confidence": 0.9,
+        "model_confidence": 0.9,
+        "rule_categories": [
+          "Access",
+          "Technical Support"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 689,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "a2",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Access",
+        "alert": false
+      },
+      "row": {
+        "id": 9,
+        "message_id": "<mock1.a2@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Access",
+        "secondary_category": null,
+        "confidence": 0.9,
+        "model_confidence": 0.9,
+        "rule_categories": [
+          "Access"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 456,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "a3",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Access",
+        "alert": false
+      },
+      "row": {
+        "id": 10,
+        "message_id": "<mock1.a3@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Access",
+        "secondary_category": null,
+        "confidence": 0.9,
+        "model_confidence": 0.9,
+        "rule_categories": [
+          "Access"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 565,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "a4",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Access",
+        "alert": false
+      },
+      "row": {
+        "id": 11,
+        "message_id": "<mock1.a4@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Access",
+        "secondary_category": null,
+        "confidence": 0.9,
+        "model_confidence": 0.9,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 669,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "a5",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Access",
+        "accept": [
+          "Technical Support"
+        ],
+        "alert": false
+      },
+      "row": {
+        "id": 13,
+        "message_id": "<mock1.a5@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Access",
+        "secondary_category": null,
+        "confidence": 0.9,
+        "model_confidence": 0.9,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 691,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "a6",
+      "tags": [
+        "security"
+      ],
+      "label": {
+        "category": "Access",
+        "alert": true
+      },
+      "row": {
+        "id": 12,
+        "message_id": "<mock1.a6@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "General Question",
+        "secondary_category": null,
+        "confidence": 0.7,
+        "model_confidence": 0.7,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "low_confidence",
+          "security"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:21.308364+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 525,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": false,
+      "lenient": false
+    },
+    {
+      "id": "a7",
+      "tags": [
+        "sensitive-data"
+      ],
+      "label": {
+        "category": "Access",
+        "alert": true
+      },
+      "row": {
+        "id": 14,
+        "message_id": "<mock1.a7@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Access",
+        "secondary_category": null,
+        "confidence": 0.9,
+        "model_confidence": 0.9,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "sensitive_data"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:21.48007+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 421,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "a8",
+      "tags": [
+        "non-english",
+        "tagalog"
+      ],
+      "label": {
+        "category": "Access",
+        "alert": true
+      },
+      "row": {
+        "id": 15,
+        "message_id": "<mock1.a8@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Access",
+        "secondary_category": null,
+        "confidence": 0.9,
+        "model_confidence": 0.9,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "tl",
+        "needs_review": true,
+        "review_reasons": [
+          "non_english"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:21.923915+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 707,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "s1",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Scheduling",
+        "alert": false
+      },
+      "row": {
+        "id": 18,
+        "message_id": "<mock1.s1@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "General Question",
+        "secondary_category": null,
+        "confidence": 0.7,
+        "model_confidence": 0.7,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "low_confidence"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:22.180484+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 926,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": false,
+      "lenient": false
+    },
+    {
+      "id": "s2",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Scheduling",
+        "accept": [
+          "General Question"
+        ],
+        "alert": false
+      },
+      "row": {
+        "id": 17,
+        "message_id": "<mock1.s2@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Scheduling",
+        "secondary_category": null,
+        "confidence": 0.86,
+        "model_confidence": 0.86,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 792,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "s3",
+      "tags": [
+        "how-to"
+      ],
+      "label": {
+        "category": "Scheduling",
+        "accept": [
+          "General Question"
+        ],
+        "alert": false
+      },
+      "row": {
+        "id": 16,
+        "message_id": "<mock1.s3@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Scheduling",
+        "secondary_category": null,
+        "confidence": 0.86,
+        "model_confidence": 0.86,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 597,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "s4",
+      "tags": [
+        "end-client"
+      ],
+      "label": {
+        "category": "Scheduling",
+        "alert": false
+      },
+      "row": {
+        "id": 19,
+        "message_id": "<mock1.s4@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Scheduling",
+        "secondary_category": null,
+        "confidence": 0.86,
+        "model_confidence": 0.86,
+        "rule_categories": [
+          "Scheduling"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 549,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "s5",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Scheduling",
+        "alert": false
+      },
+      "row": {
+        "id": 20,
+        "message_id": "<mock1.s5@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Billing",
+        "secondary_category": null,
+        "confidence": 0.88,
+        "model_confidence": 0.88,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 608,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": false,
+      "lenient": false
+    },
+    {
+      "id": "s6",
+      "tags": [
+        "how-to"
+      ],
+      "label": {
+        "category": "Scheduling",
+        "accept": [
+          "General Question"
+        ],
+        "alert": false
+      },
+      "row": {
+        "id": 21,
+        "message_id": "<mock1.s6@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "General Question",
+        "secondary_category": null,
+        "confidence": 0.7,
+        "model_confidence": 0.7,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "low_confidence"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:22.947119+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 833,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": false,
+      "lenient": true
+    },
+    {
+      "id": "s7",
+      "tags": [
+        "non-english",
+        "spanish"
+      ],
+      "label": {
+        "category": "Scheduling",
+        "alert": true
+      },
+      "row": {
+        "id": 22,
+        "message_id": "<mock1.s7@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Scheduling",
+        "secondary_category": null,
+        "confidence": 0.86,
+        "model_confidence": 0.86,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "es",
+        "needs_review": true,
+        "review_reasons": [
+          "non_english"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:22.987623+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 799,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "s8",
+      "tags": [
+        "how-to"
+      ],
+      "label": {
+        "category": "Scheduling",
+        "accept": [
+          "General Question"
+        ],
+        "alert": false
+      },
+      "row": {
+        "id": 23,
+        "message_id": "<mock1.s8@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "General Question",
+        "secondary_category": null,
+        "confidence": 0.7,
+        "model_confidence": 0.7,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "low_confidence"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:22.998773+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 522,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": false,
+      "lenient": true
+    },
+    {
+      "id": "t1",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Technical Support",
+        "alert": false
+      },
+      "row": {
+        "id": 24,
+        "message_id": "<mock1.t1@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Technical Support",
+        "secondary_category": null,
+        "confidence": 0.85,
+        "model_confidence": 0.85,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 443,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "t2",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Technical Support",
+        "alert": false
+      },
+      "row": {
+        "id": 25,
+        "message_id": "<mock1.t2@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Technical Support",
+        "secondary_category": null,
+        "confidence": 0.85,
+        "model_confidence": 0.85,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 478,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "t3",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Technical Support",
+        "alert": false
+      },
+      "row": {
+        "id": 26,
+        "message_id": "<mock1.t3@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Technical Support",
+        "secondary_category": null,
+        "confidence": 0.85,
+        "model_confidence": 0.85,
+        "rule_categories": [
+          "Technical Support"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 582,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "t4",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Technical Support",
+        "alert": false
+      },
+      "row": {
+        "id": 27,
+        "message_id": "<mock1.t4@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Technical Support",
+        "secondary_category": null,
+        "confidence": 0.85,
+        "model_confidence": 0.85,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 630,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "t5",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Technical Support",
+        "alert": false
+      },
+      "row": {
+        "id": 28,
+        "message_id": "<mock1.t5@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Technical Support",
+        "secondary_category": null,
+        "confidence": 0.85,
+        "model_confidence": 0.85,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 524,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "t6",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Technical Support",
+        "alert": false
+      },
+      "row": {
+        "id": 29,
+        "message_id": "<mock1.t6@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Technical Support",
+        "secondary_category": null,
+        "confidence": 0.85,
+        "model_confidence": 0.85,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 424,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "t7",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Technical Support",
+        "alert": false
+      },
+      "row": {
+        "id": 30,
+        "message_id": "<mock1.t7@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Technical Support",
+        "secondary_category": null,
+        "confidence": 0.85,
+        "model_confidence": 0.85,
+        "rule_categories": [
+          "Technical Support"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 545,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "t8",
+      "tags": [
+        "angry"
+      ],
+      "label": {
+        "category": "Technical Support",
+        "alert": true
+      },
+      "row": {
+        "id": 31,
+        "message_id": "<mock1.t8@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Technical Support",
+        "secondary_category": null,
+        "confidence": 0.85,
+        "model_confidence": 0.85,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "angry"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:24.333614+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 683,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "g1",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "General Question",
+        "alert": false
+      },
+      "row": {
+        "id": 33,
+        "message_id": "<mock1.g1@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Scheduling",
+        "secondary_category": null,
+        "confidence": 0.86,
+        "model_confidence": 0.86,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 710,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": false,
+      "lenient": false
+    },
+    {
+      "id": "g2",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "General Question",
+        "alert": false
+      },
+      "row": {
+        "id": 32,
+        "message_id": "<mock1.g2@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Billing",
+        "secondary_category": null,
+        "confidence": 0.88,
+        "model_confidence": 0.88,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 481,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": false,
+      "lenient": false
+    },
+    {
+      "id": "g3",
+      "tags": [
+        "pre-sales"
+      ],
+      "label": {
+        "category": "General Question",
+        "accept": [
+          "Billing"
+        ],
+        "alert": false
+      },
+      "row": {
+        "id": 34,
+        "message_id": "<mock1.g3@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "General Question",
+        "secondary_category": null,
+        "confidence": 0.7,
+        "model_confidence": 0.7,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "low_confidence"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:24.574926+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 428,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "g4",
+      "tags": [
+        "feedback"
+      ],
+      "label": {
+        "category": "General Question",
+        "alert": false
+      },
+      "row": {
+        "id": 35,
+        "message_id": "<mock1.g4@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "General Question",
+        "secondary_category": null,
+        "confidence": 0.7,
+        "model_confidence": 0.7,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "low_confidence"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:24.90891+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 564,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "g5",
+      "tags": [
+        "partnership"
+      ],
+      "label": {
+        "category": "General Question",
+        "alert": false
+      },
+      "row": {
+        "id": 36,
+        "message_id": "<mock1.g5@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "General Question",
+        "secondary_category": null,
+        "confidence": 0.7,
+        "model_confidence": 0.7,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "low_confidence"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:25.069023+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 713,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "g6",
+      "tags": [
+        "how-to"
+      ],
+      "label": {
+        "category": "General Question",
+        "accept": [
+          "Technical Support"
+        ],
+        "alert": false
+      },
+      "row": {
+        "id": 37,
+        "message_id": "<mock1.g6@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Scheduling",
+        "secondary_category": null,
+        "confidence": 0.86,
+        "model_confidence": 0.86,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 663,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": false,
+      "lenient": false
+    },
+    {
+      "id": "g7",
+      "tags": [
+        "feedback"
+      ],
+      "label": {
+        "category": "General Question",
+        "alert": false
+      },
+      "row": {
+        "id": 38,
+        "message_id": "<mock1.g7@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Technical Support",
+        "secondary_category": null,
+        "confidence": 0.85,
+        "model_confidence": 0.85,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 543,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": false,
+      "lenient": false
+    },
+    {
+      "id": "g8",
+      "tags": [
+        "refund-keyword-false-positive"
+      ],
+      "label": {
+        "category": "General Question",
+        "accept": [
+          "Billing",
+          "Refund Request"
+        ],
+        "alert": null
+      },
+      "row": {
+        "id": 39,
+        "message_id": "<mock1.g8@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Refund Request",
+        "secondary_category": null,
+        "confidence": 0.92,
+        "model_confidence": 0.92,
+        "rule_categories": [
+          "Refund Request"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "refund"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:25.366206+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 461,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": false,
+      "lenient": true
+    },
+    {
+      "id": "r1",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Refund Request",
+        "alert": true
+      },
+      "row": {
+        "id": 40,
+        "message_id": "<mock1.r1@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Refund Request",
+        "secondary_category": null,
+        "confidence": 0.92,
+        "model_confidence": 0.92,
+        "rule_categories": [
+          "Refund Request",
+          "Billing"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "refund"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:25.607166+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 549,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "r2",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Refund Request",
+        "alert": true
+      },
+      "row": {
+        "id": 41,
+        "message_id": "<mock1.r2@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Refund Request",
+        "secondary_category": null,
+        "confidence": 0.92,
+        "model_confidence": 0.92,
+        "rule_categories": [
+          "Refund Request"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "refund"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:25.855181+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 770,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "r3",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Refund Request",
+        "alert": true
+      },
+      "row": {
+        "id": 42,
+        "message_id": "<mock1.r3@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Refund Request",
+        "secondary_category": null,
+        "confidence": 0.92,
+        "model_confidence": 0.92,
+        "rule_categories": [
+          "Refund Request",
+          "Billing"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "refund"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:25.876527+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 757,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "r4",
+      "tags": [
+        "clean"
+      ],
+      "label": {
+        "category": "Refund Request",
+        "accept": [
+          "Technical Support"
+        ],
+        "alert": true
+      },
+      "row": {
+        "id": 43,
+        "message_id": "<mock1.r4@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Refund Request",
+        "secondary_category": null,
+        "confidence": 0.92,
+        "model_confidence": 0.92,
+        "rule_categories": [
+          "Refund Request"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "refund"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:25.911047+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 544,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "r5",
+      "tags": [
+        "chargeback"
+      ],
+      "label": {
+        "category": "Refund Request",
+        "alert": true
+      },
+      "row": {
+        "id": 44,
+        "message_id": "<mock1.r5@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Refund Request",
+        "secondary_category": null,
+        "confidence": 0.92,
+        "model_confidence": 0.92,
+        "rule_categories": [
+          "Refund Request"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "refund",
+          "chargeback",
+          "security"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:26.084961+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 456,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "r6",
+      "tags": [
+        "legal"
+      ],
+      "label": {
+        "category": "Refund Request",
+        "alert": true
+      },
+      "row": {
+        "id": 45,
+        "message_id": "<mock1.r6@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Refund Request",
+        "secondary_category": null,
+        "confidence": 0.92,
+        "model_confidence": 0.92,
+        "rule_categories": [
+          "Refund Request"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "refund",
+          "legal"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:26.484554+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 633,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "r7",
+      "tags": [
+        "implicit"
+      ],
+      "label": {
+        "category": "Refund Request",
+        "alert": true
+      },
+      "row": {
+        "id": 46,
+        "message_id": "<mock1.r7@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Refund Request",
+        "secondary_category": null,
+        "confidence": 0.92,
+        "model_confidence": 0.92,
+        "rule_categories": [
+          "Refund Request"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "refund"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:26.684837+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 786,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "r8",
+      "tags": [
+        "non-english",
+        "spanish"
+      ],
+      "label": {
+        "category": "Refund Request",
+        "alert": true
+      },
+      "row": {
+        "id": 47,
+        "message_id": "<mock1.r8@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Refund Request",
+        "secondary_category": null,
+        "confidence": 0.92,
+        "model_confidence": 0.92,
+        "rule_categories": [
+          "Refund Request"
+        ],
+        "alert_attempts": 0,
+        "language": "es",
+        "needs_review": true,
+        "review_reasons": [
+          "refund",
+          "non_english"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:26.704769+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 772,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "e1",
+      "tags": [
+        "multi-intent"
+      ],
+      "label": {
+        "category": "Refund Request",
+        "accept": [
+          "Access"
+        ],
+        "alert": true
+      },
+      "row": {
+        "id": 48,
+        "message_id": "<mock1.e1@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Refund Request",
+        "secondary_category": null,
+        "confidence": 0.92,
+        "model_confidence": 0.92,
+        "rule_categories": [
+          "Refund Request",
+          "Access"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "refund"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:26.734484+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 642,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "e2",
+      "tags": [
+        "multi-intent"
+      ],
+      "label": {
+        "category": "Scheduling",
+        "accept": [
+          "Billing"
+        ],
+        "alert": true
+      },
+      "row": {
+        "id": 49,
+        "message_id": "<mock1.e2@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Billing",
+        "secondary_category": null,
+        "confidence": 0.88,
+        "model_confidence": 0.88,
+        "rule_categories": [
+          "Billing"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 428,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": false,
+      "lenient": true
+    },
+    {
+      "id": "e3",
+      "tags": [
+        "prompt-injection"
+      ],
+      "label": {
+        "category": "Refund Request",
+        "alert": true
+      },
+      "row": {
+        "id": 50,
+        "message_id": "<mock1.e3@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Refund Request",
+        "secondary_category": null,
+        "confidence": 0.92,
+        "model_confidence": 0.92,
+        "rule_categories": [
+          "Refund Request"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "refund",
+          "prompt_injection"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:27.250908+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 562,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "e4",
+      "tags": [
+        "prompt-injection"
+      ],
+      "label": {
+        "category": "Technical Support",
+        "alert": true
+      },
+      "row": {
+        "id": 52,
+        "message_id": "<mock1.e4@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Technical Support",
+        "secondary_category": null,
+        "confidence": 0.85,
+        "model_confidence": 0.85,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "prompt_injection"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:27.475654+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 768,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "e5",
+      "tags": [
+        "empty"
+      ],
+      "label": {
+        "category": "General Question",
+        "accept": [
+          "Technical Support",
+          "Access",
+          "Billing",
+          "Scheduling",
+          "Refund Request"
+        ],
+        "alert": true
+      },
+      "row": {
+        "id": 53,
+        "message_id": "<mock1.e5@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "General Question",
+        "secondary_category": null,
+        "confidence": 0.7,
+        "model_confidence": 0.7,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "low_confidence",
+          "empty_message"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:27.512023+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 769,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "e6",
+      "tags": [
+        "vague"
+      ],
+      "label": {
+        "category": "Technical Support",
+        "accept": [
+          "General Question",
+          "Access"
+        ],
+        "alert": null
+      },
+      "row": {
+        "id": 51,
+        "message_id": "<mock1.e6@eval.tidewell.example>",
+        "status": "ready",
+        "skip_reason": null,
+        "category": "Technical Support",
+        "secondary_category": null,
+        "confidence": 0.85,
+        "model_confidence": 0.85,
+        "rule_categories": [
+          "Technical Support"
+        ],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": false,
+        "review_reasons": [],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 460,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "e7",
+      "tags": [
+        "auto-reply"
+      ],
+      "label": {
+        "skip": "auto_reply",
+        "alert": false
+      },
+      "row": {
+        "id": 54,
+        "message_id": "<mock1.e7@eval.tidewell.example>",
+        "status": "skipped",
+        "skip_reason": "auto_reply",
+        "category": null,
+        "secondary_category": null,
+        "confidence": null,
+        "model_confidence": null,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": null,
+        "needs_review": null,
+        "review_reasons": [],
+        "draft": null,
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": null,
+        "prompt_version": null,
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 285,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": null,
+      "lenient": null
+    },
+    {
+      "id": "e8",
+      "tags": [
+        "bounce"
+      ],
+      "label": {
+        "skip": "bounce",
+        "alert": false
+      },
+      "row": {
+        "id": 55,
+        "message_id": "<mock1.e8@eval.tidewell.example>",
+        "status": "skipped",
+        "skip_reason": "bounce",
+        "category": null,
+        "secondary_category": null,
+        "confidence": null,
+        "model_confidence": null,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": null,
+        "needs_review": null,
+        "review_reasons": [],
+        "draft": null,
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": null,
+        "prompt_version": null,
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 363,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": null,
+      "lenient": null
+    },
+    {
+      "id": "e9",
+      "tags": [
+        "self-loop"
+      ],
+      "label": {
+        "skip": "self_loop",
+        "alert": false
+      },
+      "row": {
+        "id": 56,
+        "message_id": "<mock1.e9@eval.tidewell.example>",
+        "status": "skipped",
+        "skip_reason": "self_loop",
+        "category": null,
+        "secondary_category": null,
+        "confidence": null,
+        "model_confidence": null,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": null,
+        "needs_review": null,
+        "review_reasons": [],
+        "draft": null,
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": null,
+        "prompt_version": null,
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 361,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": null,
+      "lenient": null
+    },
+    {
+      "id": "e10",
+      "tags": [
+        "bulk"
+      ],
+      "label": {
+        "skip": "auto_reply",
+        "alert": false
+      },
+      "row": {
+        "id": 57,
+        "message_id": "<mock1.e10@eval.tidewell.example>",
+        "status": "skipped",
+        "skip_reason": "auto_reply",
+        "category": null,
+        "secondary_category": null,
+        "confidence": null,
+        "model_confidence": null,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": null,
+        "needs_review": null,
+        "review_reasons": [],
+        "draft": null,
+        "notified_at": null,
+        "attempts": 1,
+        "error": null,
+        "model": null,
+        "prompt_version": null,
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 363,
+      "http": 200,
+      "alerted": false,
+      "skipOk": true,
+      "strict": null,
+      "lenient": null
+    },
+    {
+      "id": "e11",
+      "tags": [
+        "sensitive-data"
+      ],
+      "label": {
+        "category": "Billing",
+        "alert": true
+      },
+      "row": {
+        "id": 58,
+        "message_id": "<mock1.e11@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Billing",
+        "secondary_category": null,
+        "confidence": 0.88,
+        "model_confidence": 0.88,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "sensitive_data"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:28.063002+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 513,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": true,
+      "lenient": true
+    },
+    {
+      "id": "e12",
+      "tags": [
+        "attachment-only"
+      ],
+      "label": {
+        "category": "Billing",
+        "accept": [
+          "General Question",
+          "Refund Request",
+          "Technical Support"
+        ],
+        "alert": true
+      },
+      "row": {
+        "id": 59,
+        "message_id": "<mock1.e12@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "General Question",
+        "secondary_category": null,
+        "confidence": 0.7,
+        "model_confidence": 0.7,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "low_confidence",
+          "empty_message"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:28.138336+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 368,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": false,
+      "lenient": true
+    },
+    {
+      "id": "e13",
+      "tags": [
+        "buried-intent"
+      ],
+      "label": {
+        "category": "Refund Request",
+        "accept": [
+          "Technical Support"
+        ],
+        "alert": true
+      },
+      "row": {
+        "id": 60,
+        "message_id": "<mock1.e13@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "Billing",
+        "secondary_category": null,
+        "confidence": 0.88,
+        "model_confidence": 0.88,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "refund"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:28.266381+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 400,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": false,
+      "lenient": false
+    },
+    {
+      "id": "e14",
+      "tags": [
+        "signature-noise"
+      ],
+      "label": {
+        "category": "Technical Support",
+        "alert": false
+      },
+      "row": {
+        "id": 61,
+        "message_id": "<mock1.e14@eval.tidewell.example>",
+        "status": "needs_review",
+        "skip_reason": null,
+        "category": "General Question",
+        "secondary_category": null,
+        "confidence": 0.7,
+        "model_confidence": 0.7,
+        "rule_categories": [],
+        "alert_attempts": 0,
+        "language": "en",
+        "needs_review": true,
+        "review_reasons": [
+          "low_confidence"
+        ],
+        "draft": "Hi there,\n\nThanks for getting in touch. We've passed your message to the right team and will follow up shortly.\n\nBest regards,\nTidewell Support",
+        "notified_at": "2026-10-26T02:13:28.410203+00:00",
+        "attempts": 1,
+        "error": null,
+        "model": "mock",
+        "prompt_version": "p-67a119f8",
+        "prior_ticket_id": null,
+        "possible_dup_of": null,
+        "no_card_stored": true
+      },
+      "ms": 519,
+      "http": 200,
+      "alerted": true,
+      "skipOk": true,
+      "strict": false,
+      "lenient": false
+    }
+  ],
+  "checks": [
+    [
+      "Duplicate: one ticket for 6 sends",
+      true
+    ],
+    [
+      "Duplicate: claimed once, 5 ignored",
+      true
+    ],
+    [
+      "Duplicate: AI called once",
+      true
+    ],
+    [
+      "Duplicate: at most one alert",
+      true
+    ],
+    [
+      "Wrong token → 401, nothing stored",
+      true
+    ],
+    [
+      "Refund alert recall = 100%",
+      true
+    ],
+    [
+      "Card number masked before storage and AI (e11)",
+      true
+    ],
+    [
+      "Thread follow-up linked (b8 → b1)",
+      true
+    ],
+    [
+      "Gmail reconcile resend → duplicate, no event noise",
+      true
+    ],
+    [
+      "AI 500 → HTTP 502 + ticket failed",
+      true
+    ],
+    [
+      "Retries re-claim until 3 attempts, then stop",
+      true
+    ],
+    [
+      "Malformed AI output → review with invalid_model_output",
+      true
+    ],
+    [
+      "Sweep webhook: token → 202, wrong token → 401",
+      true
+    ],
+    [
+      "AI outage → failed → sweeper replay succeeds (attempt 2)",
+      true
+    ],
+    [
+      "Slack outage → sweeper resends alert once",
+      true
+    ],
+    [
+      "Stuck ticket → marked stuck → replayed",
+      true
+    ]
+  ],
+  "faults": {
+    "f500": [
+      {
+        "status": 502,
+        "body": {
+          "ok": false,
+          "ticket_id": "70",
+          "attempts": 1,
+          "retry": true
+        },
+        "ms": 20173
+      },
+      {
+        "status": 502,
+        "body": {
+          "ok": false,
+          "ticket_id": "70",
+          "attempts": 2,
+          "retry": true
+        },
+        "ms": 20094
+      },
+      {
+        "status": 502,
+        "body": {
+          "ok": false,
+          "ticket_id": "70",
+          "attempts": 3,
+          "retry": false
+        },
+        "ms": 20082
+      },
+      {
+        "status": 200,
+        "body": {
+          "ok": true,
+          "processed": false,
+          "reason": "duplicate",
+          "ticket_id": "70",
+          "status": "failed"
+        },
+        "ms": 87
+      }
+    ],
+    "malformed": {
+      "status": 200,
+      "body": {
+        "ok": true,
+        "processed": true,
+        "ticket_id": "74",
+        "status": "needs_review",
+        "category": "General Question",
+        "confidence": 0,
+        "review_reasons": [
+          "invalid_model_output",
+          "low_confidence"
+        ]
+      },
+      "ms": 180
+    },
+    "transient": {
+      "status": 502,
+      "body": {
+        "ok": false,
+        "ticket_id": "75",
+        "attempts": 1,
+        "retry": true
+      },
+      "ms": 20178
+    },
+    "slackDown": {
+      "status": 200,
+      "body": {
+        "ok": true,
+        "processed": true,
+        "ticket_id": "76",
+        "status": "needs_review",
+        "category": "Refund Request",
+        "confidence": 0.92,
+        "review_reasons": [
+          "refund"
+        ]
+      },
+      "ms": 10144
+    },
+    "sweep": 202,
+    "sweepUnauth": 401
+  },
+  "usage": {
+    "input": 122738,
+    "output": 4687
+  }
+}
